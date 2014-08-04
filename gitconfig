@@ -1,0 +1,33 @@
+[user]
+	name = John Stahara
+	email = john.stahara@gmail.com
+[color]
+	ui = auto
+[pack]
+	threads = 0
+[diff]
+	renamelimit = 0
+[merge]
+	tool = vimdiff
+[alias]
+	co = checkout
+	cd = branch
+	ci = commit
+	grep = grep -I
+	pop = stash pop
+	update = !gx-update
+	lol = log --oneline --graph --decorate
+[rerere]
+	enabled = 1
+[core]
+	autocrlf = input
+	editor = vim
+	excludesfile = /home/jjs/.gitexclude
+[help]
+	autocorrect = 1
+[mergetool]
+	keepBackup = false
+[push]
+	default = upstream
+[rebase]
+	autostash = true
