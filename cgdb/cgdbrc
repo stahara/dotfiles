@@ -1,0 +1,27 @@
+:map u :up<CR>
+:map d :down<CR>
+:map c :continue<CR>
+:map r :run<CR>
+:map s :step<CR>
+:map n :next<CR>
+:map f :finish<CR>
+:map b ib<Space> 
+:map B ibt<CR><ESC>
+:map g iuntil<CR><ESC>
+:map <Insert> i 
+:map 0 if<Space>0<CR><ESC>
+:map 1 if<Space>1<CR><ESC>
+:map 2 if<Space>2<CR><ESC>
+:map 3 if<Space>3<CR><ESC>
+:map 4 if<Space>4<CR><ESC>
+:map 5 if<Space>5<CR><ESC>
+:map 6 if<Space>6<CR><ESC>
+:map 7 if<Space>7<CR><ESC>
+:map 8 if<Space>8<CR><ESC>
+:map 9 if<Space>9<CR><ESC>
+:map p ip<Space> 
+:map P ip<Space>* 
+:imap kk <ESC>
+:imap <Insert> <ESC>
+:set showtgdbcommands
+:set ts=4
